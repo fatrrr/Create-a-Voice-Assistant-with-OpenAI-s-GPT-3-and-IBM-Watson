@@ -1,0 +1,6 @@
+<!-- to build and run docker -->
+docker build . -t voice-chatapp-powered-by-openai
+docker run -p 8000:8000 voice-chatapp-powered-by-openai
+
+<!-- cert -->
+mkdir certs && cp /usr/local/share/ca-certificates/rootCA.crt certs/
